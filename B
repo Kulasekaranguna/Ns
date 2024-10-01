@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math and Drawing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      margin: 50px;
+    }
+
+    .parallelogram-container {
+      position: relative;
+      width: 250px;
+      height: 150px;
+    }
+
+    .parallelogram {
+      width: 200px;
+      height: 100px;
+      transform: skew(-30deg);
+      background-color: lightgray;
+      position: absolute;
+      top: 50px;
+      left: 50px;
+    }
+
+    .angle {
+      position: absolute;
+      font-size: 14px;
+    }
+
+    /* Angle positions */
+    .angle-1 {
+      top: 150px;
+      left: 25px;
+    }
+
+    .angle-2 {
+      top: 160px;
+      right: 120px;
+    }
+
+    .angle-3 {
+      top: 25px;
+      right: 90px;
+    }
+
+    .angle-4 {
+      top: 25px;
+      left: 60px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>1. Math and Drawing</h2>
+    <div class="parallelogram-container">
+      <div class="parallelogram"></div>
+      <!-- Angle labels -->
+      <div class="angle angle-1">30°</div>
+      <div class="angle angle-2">30°</div>
+      <div class="angle angle-3">30°</div>
+      <div class="angle angle-4">30°</div>
+    </div>
+  </div>
+
+</body>
+</html>
